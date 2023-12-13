@@ -9,7 +9,6 @@ import org.springframework.boot.runApplication
 class CoreApiApplication
 
 
-
 fun main(args: Array<String>) {
     runApplication<CoreApiApplication>(*args)
 }
