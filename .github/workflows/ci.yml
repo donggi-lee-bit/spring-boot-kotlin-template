@@ -4,7 +4,7 @@ on:
   push:
     branches: [ "feature/*", "fix/*", "refactor/*" ]
     paths:
-      - "../core/core-api/src/**"
+      - "core/core-api/src/**"
 
 permissions:
   contents: read
