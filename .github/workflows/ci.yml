@@ -3,11 +3,6 @@ name: CI
 on:
   push:
     branches: [ "main" ]
-    paths:
-      [
-        "/core/core-api/src/**"
-      ]
-
 
 permissions:
   contents: read
