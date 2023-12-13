@@ -3,6 +3,8 @@ name: CI
 on:
   push:
     branches: [ "feature/*", "fix/*", "refactor/*" ]
+    paths:
+      - "src/**"
 
 permissions:
   contents: read

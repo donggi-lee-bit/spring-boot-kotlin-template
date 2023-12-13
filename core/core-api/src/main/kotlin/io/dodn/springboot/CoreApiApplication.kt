@@ -11,7 +11,6 @@ class CoreApiApplication
 
 
 
-
 fun main(args: Array<String>) {
     runApplication<CoreApiApplication>(*args)
 }
